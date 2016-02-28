@@ -27,7 +27,19 @@
 
     CGPoint newCenter = [tap locationInView:self.spaceView];
     
-    self.xwingView.center = newCenter;
+    UIViewAnimationOptions options = 0;
+    [UIView animateWithDuration:2
+                          delay:0
+                        options:options
+                     animations:^{
+                        self.xwingView.center = newCenter;
+                     }
+                     completion:^(BOOL finished) {
+                        //
+                     }];
+     
+     
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
