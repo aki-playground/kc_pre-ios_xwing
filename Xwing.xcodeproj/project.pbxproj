@@ -11,6 +11,10 @@
 		AA190E8E1C82CF1200728949 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA190E8D1C82CF1200728949 /* AppDelegate.m */; };
 		AA190E901C82CF1200728949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA190E8F1C82CF1200728949 /* Assets.xcassets */; };
 		AA190E931C82CF1200728949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA190E911C82CF1200728949 /* LaunchScreen.storyboard */; };
+		AA190E9D1C82CF5300728949 /* AOAXWingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA190E9B1C82CF5300728949 /* AOAXWingViewController.m */; };
+		AA190E9E1C82CF5300728949 /* AOAXWingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA190E9C1C82CF5300728949 /* AOAXWingViewController.xib */; };
+		AA190EA11C82CF6D00728949 /* space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA190E9F1C82CF6D00728949 /* space.jpg */; };
+		AA190EA21C82CF6D00728949 /* xwing.png in Resources */ = {isa = PBXBuildFile; fileRef = AA190EA01C82CF6D00728949 /* xwing.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,11 @@
 		AA190E8F1C82CF1200728949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA190E921C82CF1200728949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA190E941C82CF1200728949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA190E9A1C82CF5300728949 /* AOAXWingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOAXWingViewController.h; sourceTree = "<group>"; };
+		AA190E9B1C82CF5300728949 /* AOAXWingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOAXWingViewController.m; sourceTree = "<group>"; };
+		AA190E9C1C82CF5300728949 /* AOAXWingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AOAXWingViewController.xib; sourceTree = "<group>"; };
+		AA190E9F1C82CF6D00728949 /* space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = space.jpg; sourceTree = "<group>"; };
+		AA190EA01C82CF6D00728949 /* xwing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xwing.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +62,16 @@
 		AA190E881C82CF1200728949 /* Xwing */ = {
 			isa = PBXGroup;
 			children = (
+				AA190EA31C82CF7400728949 /* Resources */,
 				AA190E8C1C82CF1200728949 /* AppDelegate.h */,
 				AA190E8D1C82CF1200728949 /* AppDelegate.m */,
 				AA190E8F1C82CF1200728949 /* Assets.xcassets */,
 				AA190E911C82CF1200728949 /* LaunchScreen.storyboard */,
 				AA190E941C82CF1200728949 /* Info.plist */,
 				AA190E891C82CF1200728949 /* Supporting Files */,
+				AA190E9A1C82CF5300728949 /* AOAXWingViewController.h */,
+				AA190E9B1C82CF5300728949 /* AOAXWingViewController.m */,
+				AA190E9C1C82CF5300728949 /* AOAXWingViewController.xib */,
 			);
 			path = Xwing;
 			sourceTree = "<group>";
@@ -69,6 +82,15 @@
 				AA190E8A1C82CF1200728949 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA190EA31C82CF7400728949 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA190EA01C82CF6D00728949 /* xwing.png */,
+				AA190E9F1C82CF6D00728949 /* space.jpg */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +150,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA190EA11C82CF6D00728949 /* space.jpg in Resources */,
+				AA190E9E1C82CF5300728949 /* AOAXWingViewController.xib in Resources */,
+				AA190EA21C82CF6D00728949 /* xwing.png in Resources */,
 				AA190E901C82CF1200728949 /* Assets.xcassets in Resources */,
 				AA190E931C82CF1200728949 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -142,6 +167,7 @@
 			files = (
 				AA190E8E1C82CF1200728949 /* AppDelegate.m in Sources */,
 				AA190E8B1C82CF1200728949 /* main.m in Sources */,
+				AA190E9D1C82CF5300728949 /* AOAXWingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
